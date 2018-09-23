@@ -1447,3 +1447,31 @@ p {
 .special_description_content > h2 {
     color: #212529;
 }
+
+p {
+    color: #383226;
+}
+
+.app-download-btn a {
+    background-color: #d98624;
+}
+
+.app-download-btn a:hover {
+    background-color: #d98624;
+}
+
+.app-download-btn a p{
+    color: #fedc00;;
+}
+
+.app-download-btn a i{
+    color: white;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.pt-150{
+    padding-top:150px;
+}
