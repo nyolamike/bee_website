@@ -1475,3 +1475,36 @@ p {
 .pt-150{
     padding-top:150px;
 }
+
+.single-feature > i {
+    color:  #fedc00;
+}
+
+.single-feature > h5 {
+    color: #84785b;
+}
+
+body {
+    background-color: black;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.footer-social-icon > a > i {
+    background: #d98625;
+}
+
+.footer-social-icon > a:hover > i {
+    background:  #fedc00;
+}
+
+.footer-menu ul li a {
+    border-right: 2px solid #ffdd00;
+    color:#d98625;;
+}
+
+#scrollUp {
+    background-color: #d98625;
+}

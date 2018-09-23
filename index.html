@@ -50,10 +50,10 @@
                                     <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#docs">Documentation</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#community">Community</a></li> -->
                                 </ul>
                                 <!-- <div class="sing-up-button d-lg-none">
                                     <a href="#">Sign Up Free</a>
@@ -205,6 +205,7 @@
                         <p>
                             Cut the time to deliver your MVP (minimun viable product) 60%. <br/>
                             Know what your market needs earlier.
+                            <br/><br/>
                         </p>
                     </div>
                 </div>
@@ -214,18 +215,25 @@
                         <div class="single-icon">
                             <i class="ti-ruler-pencil" aria-hidden="true"></i>
                         </div>
-                        <h4>Powerful Design</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <h4>Intuitive Design</h4>
+                        <p>
+                            This pretty complex tool takes plain objects from js, 
+                            c#, java, php etc and turns them into api endpoints on the fly as per request.
+                        </p>
                     </div>
                 </div>
                 <!-- Single Special Area -->
                 <div class="col-12 col-md-4">
                     <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-icon">
-                            <i class="ti-settings" aria-hidden="true"></i>
+                            <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
                         </div>
-                        <h4>Customizability</h4>
-                        <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                        <h4>Save Money</h4>
+                        <p>
+                            The more time you take from idea to production the more money you spend,
+                            B.E.E does 60% of the work you need to do to archieve a working
+                            MVP
+                        </p>
                     </div>
                 </div>
                 <div class="app-download-area">
@@ -267,49 +275,86 @@
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <i class="fas fa-server" aria-hidden="true"></i>
+                        <h5>BAAS -Backend As AService</h5>
+                        <p>
+                            B.E.E is an intuitive open source backend as a service platform, which means that you dont need to
+                            develope a backend for your app.
+                            It takes care of the mandatory activities of a backend e.g CRUD (create, read, update, delete) operations,
+                            all you have to do is give it a request and it will do the hard work for you.
+
+                        </p>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
-                        <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <i class="fas fa-database" aria-hidden="true"></i>
+                        <h5>Multi-Tenant Architecture</h5>
+                        <p>
+                            The engine can serve multiple customers each storing its data in a separate database.
+                            The engine is smart enough to known how to connect to the right database from the incoming requests.
+                            The enginee also can track which customer has paid for what module and place access restrictions
+                            to unpaid modules of your application, just out of the box.
+                        </p>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
-                        <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <i class="fas fa-file-archive" aria-hidden="true"></i>
+                        <h5>Request Bundling</h5>
+                        <p>
+                            This reduces the number of necessary HTTP requests needed to fullfill a specific operations
+                            by merging multiple requests into a  single request object that is sent to the server at once
+                            and the server is happy to execute all operations, in turn saving you from doing lots of round trips.
+                        </p>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Organic Requests</h5>
+                        <p>
+                            The client writes a structure that describes the data it needs from the server (NECTOR), <br/>
+                            The backend enginee (BEE) interprets this structure into a series of highly optimised 
+                            sql statements,pre operations and post operations.
+                            It then executes these and formats the data to be returned according to the structure of 
+                            the request (HONEY),<br/> finally the server sends back a this honey response to the client as json by default.
+                        </p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="fas fa-hand-point-right" aria-hidden="true"></i>
+                        <h5>One API End Point</h5>
+                        <p>
+                            The only documentation that is shared among the team is the database design, 
+                            there are no endpoints or versions of endpoints for your api.
+                            The only end point is the url to your server usually called the base url(HIVE location)
+                            e.g https://myawesomeapp.com.
+                            When a request arrives at the server, the engine (bee) checks the request body 
+                            or query parameters for the structure (nector) of what you want from the database.
+                            The engine formats the response (honey) in the way you intend to use the data.
+                        </p>
                     </div>
                 </div>
                 <!-- Single Feature Start -->
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="single-feature">
                         <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-headphone" aria-hidden="true"></i>
-                        <h5>24/7 Online Support</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h5>Plug and Play</h5>
+                        <p>
+                            B.E.E can be used on already existing applications to add new features or reduce the need
+                            to maintain ever changing api version end points and compatibility issues. <br/>
+                            You can use it as an ORM internally to query for data from your db or make changes.
+                            New applications can quickly be developed using the enginee as a backend service. <br/>
+                            There are many bee versions for different technology stacks e.g 
+                            <a href="https://github.com/nyolamike/bee">php & mysql</a>,
+                            <a href="https://github.com/nyolamike/PhpBees">asp.net core mvp & mssql</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -319,189 +364,12 @@
     <!-- ***** Awesome Features End ***** -->
 
     <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
-                        <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--todo-->
     <!-- ***** Video Area End ***** -->
-
-    <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
-                            <p>APP <br> DOWNLOADS</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
-                            <p>Happy <br> Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-person"></i>
-                            <p>ACTIVE <br>ACCOUNTS</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
-                            <p>TOTAL <br>APP RATES</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Cool Facts Area End ***** -->
-
     
 
     <!-- ***** Client Feedback Area Start ***** -->
-    <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="slider slider-for">
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Aigars Silkalns</h5>
-                                <p>Ceo Colorlib</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Jennifer</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Helen</h5>
-                                <p>Marketer</p>
-                            </div>
-                        </div>
-                        <!-- Client Feedback Text  -->
-                        <div class="client-feedback-text text-center">
-                            <div class="client">
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <div class="client-description text-center">
-                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
-                            </div>
-                            <div class="star-icon text-center">
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                                <i class="ion-ios-star"></i>
-                            </div>
-                            <div class="client-name text-center">
-                                <h5>Henry smith</h5>
-                                <p>Developer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Client Thumbnail Area -->
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="slider slider-nav">
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-3.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-1.jpg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="img/bg-img/client-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--todo-->
     <!-- ***** Client Feedback Area End ***** -->
 
     
@@ -509,85 +377,34 @@
     
 
     <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
-                    </div>
-                    <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
-                    </div>
-                    <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--todo-->
     <!-- ***** Contact Us Area End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+    <footer class="footer-social-icon text-center section_padding_70 bg-black clearfix">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Ca.</h2>
+            <h2><img src="img/core-img/logo.png" class="page_logo" /></h2>
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://github.com/nyolamike/bee" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a>
         </div>
         <div class="footer-menu">
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
+                        
+                    <li>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
                     <li><a href="#">Terms &amp; Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Contact</a></li>
@@ -598,6 +415,7 @@
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
             <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p>Modified by <a href="https://github.com/nyolamike" target="_blank">Nyola Mike</a></p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
