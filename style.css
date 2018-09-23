@@ -424,7 +424,8 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg.png);
+    /* background-image: url(img/bg-img/welcome-bg.png); */
+    background-image: url(img/bg-img/welcome-bg.jpg); 
     height: 900px;
     position: relative;
     z-index: 1;
@@ -1293,4 +1294,156 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
+}
+
+/* 
+    Code by nyola mike
+ */
+.page_logo{
+    height: 110px;
+    width: 110px;
+}
+
+.menu_area .navbar-brand {
+    text-align: center;
+}
+
+.bee_logo_name{
+    font-size: 40px;
+    color: #FFDD00;
+}
+
+.wellcome_area {
+    height: 500px;
+}
+
+.wellcome-heading > h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -130px;
+    padding-left: 120px;
+}
+
+.wellcome-heading > h3 {
+    left: 550px;
+    color: #fff;
+    opacity: .05;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=5)";
+}
+
+.get-start-area .submit {
+    background-color: #f3d300;
+    cursor: pointer;
+    color:  #756600;
+    margin-top: 120px;
+    height: 40px;
+}
+
+.get-start-area .submit:hover {
+    background: #837100;
+}
+
+.code_sample{
+    position: absolute;
+    margin-top: -90px;
+    /* background-color: #2520007a; */
+    width: max-content;
+}
+
+.bee_code{
+    font-size: 12px;
+    color: #f3d300;
+    display: inline-block;
+    text-align: left;
+    white-space: pre;
+    margin-left: 30px;
+}
+
+.bee_code_editor{
+    white-space: pre;
+}
+
+.bee_code_label_a{
+    position: absolute;
+    background-color: #766e6cd6;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    left: -20px;
+    top: 140px;
+}
+
+.bee_code_label_b{
+    position: absolute;
+    background-color: #766e6c3b;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    left: 35%;
+    top: 120px;
+}
+
+.bee_code_label_c{
+    position: absolute;
+    background-color: #766e6c59;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    left: 70%;
+    top: -40px;
+}
+
+.header_area.sticky {
+    background-color: black;
+    background-color: #d98625;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 170px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    /* background-image: url(img/bg-img/header_bg.jpg);  */
+}
+
+.bg-bee1 {
+    background-color: #f9bb00!important;
+}
+
+.section-heading > h2 {
+    color:#8a7d5f;
+}
+
+.single-icon > i {
+    font-size: 36px;
+    color: #8a7d5f;
+    font-weight: bolder;
+}
+
+.line-shape-white, .line-shape {
+    background-color: #fedc00;
+}
+
+.single-special > h4 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.special_description_content > h2 {
+    color: #212529;
 }
